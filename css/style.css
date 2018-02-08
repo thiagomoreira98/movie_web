@@ -24,3 +24,16 @@ body {
     top: 0;
     left: 0;
 }
+
+#btn-sidenav {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+li {
+
+}
+
+li:hover {
+    background-color: blue;
+}
