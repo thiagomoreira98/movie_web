@@ -17,18 +17,23 @@ body {
 
 #sidenav {
     background-color: white;
-    width: 200px;
+    width: 0;
     height: 100%;
     box-shadow:  0 12px 17px 2px rgba(0, 0, 0, 0.14), 0 5px 22px 4px rgba(0, 0, 0, 0.12), 0 7px 8px 0 rgba(0, 0, 0, 0.20);
     position: absolute;
     top: 0;
     left: 0;
+    -webkit-transition: .35s ease-in-out;
+    -moz-transition: .35s ease-in-out;
+    -o-transition: .35s ease-in-out;
+    transition: .35s ease-in-out;
 }
 
 #btn-sidenav {
     font-size: 35px;
     cursor: pointer;
     padding: 10px 10px;
+    user-select: none;
 }
 
 nav li i {
@@ -40,17 +45,22 @@ nav li i {
 ul {
     padding: 0;
     list-style: none;
+    overflow: hidden
 }
 
 li {
     position: relative;
     padding: 10px 38px;
     border-bottom: 1px dashed rgba(0, 0, 0, 1);
-    background-color: rgba(0, 0, 0, 0.17);
+    background-color: #ddd;
     height: 20px;
+    -webkit-transition: .280s ease-in-out;
+    -moz-transition: .280s ease-in-out;
+    -o-transition: .280s ease-in-out;
+    transition: .280s ease-in-out;
 }
 
 li:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgb(182, 182, 182);
     cursor: pointer;
 }
