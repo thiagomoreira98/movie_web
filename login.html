@@ -18,13 +18,16 @@
         <form>
             <div class="formLogin">
                 <div>
-                    <input name="usuario" type="text" placeholder="Usuario">
-                    <input name="senha" type="text" placeholder="Senha">
-                    <a>Esqueceu a senha ?</a>
-                    <button type="submit" class="btn-login">ENTRAR</button>
+                    <input id="usuario" type="text" placeholder="Usuario" required>
+                    <input id="senha" type="password" placeholder="Senha" required>
+                    <button type="submit" id="btn-login" onclick="entrar()">ENTRAR</button>
                 </div>
             </div>
         </form>
+    </div>
+
+    <div id="popup">
+
     </div>
 
 </body>
